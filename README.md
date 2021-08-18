@@ -47,6 +47,7 @@ The following bucket policy is added under the bucket permmision section.
     ]
 }
 ```
+![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture1.PNG)
 
 ## Uploading of images to the s3 bucket using sync  command
 
@@ -65,7 +66,8 @@ upload: img/gallery-img-06-tn.jpg to s3://image.website/gallery-img-06-tn.jpg
 
 ## Now we are creating a bucket policy to make the objects in s3 bucket as public
 
-Before that we have to edit the status of Block public access (bucket settings)  to off from on status 
+Before that we have to edit the status of Block public access (bucket settings)  to off from on status.
+![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture3.PNG)
 
 ```sh
 {
@@ -85,6 +87,8 @@ Before that we have to edit the status of Block public access (bucket settings) 
     ]
 }
 ```
+![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture2.PNG)
+
 The above code will  provide all the  object in that bucket to public access.
 
 Finally we have to modify the apache config file to serve the img directory from this bucket.
@@ -103,4 +107,11 @@ systemctl restart httpd.service
 Now our images are loading from s3 bucket, we can identify the same by  browsing website's image on a browser tab and see the image url will be pointed to your S3 bucket like "https://s3.ap-south-1.amazonaws.com/image.website/gallery-img-02-tn.jpg"
 
 Please check the following screen shots :
+
+
+![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture5.PNG)
+
+![alt text]  (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture6.PNG)
+
+
 
