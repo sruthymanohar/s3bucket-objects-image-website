@@ -108,10 +108,9 @@ Now our images are loading from s3 bucket, we can identify the same by  browsing
 
 Please check the following screen shots :
 
-
 ![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture5.PNG)
 
-![alt text]  (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture6.PNG)
+![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture6.PNG)
 
 
 
