@@ -67,7 +67,7 @@ upload: img/gallery-img-06-tn.jpg to s3://image.website/gallery-img-06-tn.jpg
 ## Now we are creating a bucket policy to make the objects in s3 bucket as public
 
 Before that we have to edit the status of Block public access (bucket settings)  to off from on status.
-![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture3.PNG?raw=true)
+![alt text](https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture3.PNG?raw=true)
 
 ```sh
 {
