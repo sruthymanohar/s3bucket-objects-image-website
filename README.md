@@ -12,8 +12,8 @@ Here, we are creating a simple html website. However, it's images are loading fr
 
 
 ## Prerequisites for this project
--- Need an IAM user
--- bucket policy 
+- Need an IAM user
+- bucket policy 
 
 ## IAM   Configure
 Here Iam configuring an IAM user without any policy
