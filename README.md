@@ -113,4 +113,7 @@ Please check the following screen shots :
 ![alt text] (https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture6.PNG?raw=true)
 
 
+![alt text](https://github.com/sruthymanohar/awscli-ec2-creation/blob/main/Capture.PNG)
+
+
 
